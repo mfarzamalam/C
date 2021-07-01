@@ -16,9 +16,14 @@ int main(){
     // go from left to right i.e associativity
 
     // Priority  Operator 
-    // 1st        * / %
-    // 2nd        + - 
-    // 3rd         =  
+    // 1st          !
+    // 2nd          *, /, %
+    // 3rd          +, - 
+    // 4th          <, >, <=, >=  
+    // 5th          ==, !=
+    // 6th          &&
+    // 7th          ||
+    // 8th          = 
 
     printf("%d\n",291%97);
 
