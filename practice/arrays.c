@@ -48,6 +48,29 @@ int main(){
     int arr[7] = {4,3,-6,-88,97,-15,-9};
     positive_int(arr);
 
+    int row = 3;
+    int col = 10;
+
+    int araay[row][col];
+    int multi[3] = {3,7,10};
+
+    for(int i=0; i<row; i++){
+        int temp;
+        temp = multi[i];
+        for (int j=0; j<col; j++){
+            araay[i][j] = temp * (j+1);
+        }
+    }
+
+    for(int i=0; i<row; i++){
+        printf("\n");
+        int temp;
+        temp = multi[i];
+        for (int j=0; j<col; j++){
+            printf("%d x %d = %d\n", temp, j+1, araay[i][j]);
+        }
+    }
+
     return 0;
 }
 
